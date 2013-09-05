@@ -1,0 +1,57 @@
+/* CSS Document */
+document,body,html{ position:absolute; width:100%; height:100%; z-index:1; font-family:Georgia, "Times New Roman", Times, serif; margin:0px; padding:0px; overflow:auto; }
+/*body{ background-image:url(../img/transparente.png); }*/
+#transparente{ position:absolute; width:100%; height:100%; z-index:2; margin:0px; background-color:#999999;  }
+
+#login{ position:absolute; width:400px; height:200px; z-index:4; left:50%; top:50%; margin-left:-200px; margin-top:-100px; /*background-color:#000;*/ background-image:url(../img/index.png); }	
+	#login_01{ position:relative; width:400px; clear:both; height:25px; font-size:14px; font-weight:bold; text-align:center; border-bottom:#999 1px dashed; color:#666; padding-top:5px; }
+	#login_02{ position:relative; width:150px; float:left; height:174px; text-align:center; /*background-color:#069;*/ }
+	#login_03{ position:relative; width:250px; float:left; height:174px; /*background-color:#6C9;*/ font-size:small; font-weight:normal; text-align:center; color:#666;  }
+
+#d00{ position:absolute; width:800px; left:50%; margin-left:-400px; height:100%; z-index:1; display:none;  }
+
+#d01{ position:relative; height:100px; /*background-color:#999966;*/ margin-top:5px;}
+	#d11{ position:relative; height:30px; /*background-color:#fff;*/ }
+		#d111{ margin-left:7px; }
+		#d112{  }
+		#d113{  }
+		#d114{  }
+		.tabx{ position:relative; width:190px; float:left; height:100%; background-color:#fff; background-image:url(../img/tab0.png); background-repeat:no-repeat; margin-left:7px; cursor:pointer; }
+		/*.tabx:hover{  background-image:url(../img/tab1.png);  margin-top:1px; z-index:2;  }*/
+		.tabx_1{  background-image:url(../img/tab1.png); background-repeat:no-repeat;  margin-top:2px; z-index:2;  }
+		.link_01{ position:relative; width:195px; text-decoration:none; text-align:center; font-size:small; margin-top:10px;  }
+		.link_02{ text-decoration:none; text-align:center; font-size:small; color:#0099FF;}		
+		.link_02:hover{ color:#f00;/* font-weight:bold;*/ }		
+		.link_03{ text-decoration:none; text-align:center; font-size:small; color:#333333; }		
+		.link_03:hover{ color:#f00;/* font-weight:bold;*/ }		
+
+
+		
+	#d12{ position:relative; height:70px; background-color:#fff; background-image:url(../img/menu1.png); background-repeat:no-repeat; background-position:center;}
+		#d121{ position:relative; width:750px; height:60px; left:50%; margin-left:-375px; padding-top:5px; text-align:center; color:#666666; }
+		#d121 a{ text-decoration:none; color:#0099FF; }		
+	
+	
+	
+#d02{ position:relative; height:550px; /*background-color:#efefcc;*/ margin-top:5px;}
+	#d21{ position:relative; height:10px; background-image:url(../img/box_01.png); background-repeat:no-repeat; background-position:center;}
+	#d22{ position:relative; height:540px; background-image:url(../img/box_02.png); background-repeat:repeat-y; background-position:center; padding:5px;}
+		#d221{ position:relative; height:530px; /*margin:5px; background-color:#FFFFFF;*/ overflow:auto; color:#666666;  }
+	#d23{ position:relative; height:10px; background-image:url(../img/box_03.png); background-repeat:no-repeat; background-position:center;}
+#d03{ position:relative; height:20px; margin-top:15px; text-align:center; font-size:small; color:#666666; }
+/* ------------------------------------------------------------------------- */
+.spa_no_ticket{ font-size:36px; font-weight:bold; /*border:#CCC 1px solid; padding:3px; background-color:#efefef;*/ }
+.campo_vertical{ text-align:left; font-size:small; font-weight:bold; }
+.transparent_class {
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+.mensaje_01{ text-align:center; font-size:small; font-weight:bold; margin:5px; }
+.tabla_bordes{ border-left:#fff 1px solid; border-top:#fff 1px solid; }
+.tabla_bordes td { border-right:#fff 1px solid; border-bottom:#fff 1px solid; font-size:small; }
+th { border-bottom:#fff 2px solid; border-right:#fff 1px solid; text-align:center; font-size:small; font-weight:bold;} 
+
+.txt_campo_chico{ width:50px; text-align:center; font-size:small; }
+.txt_campo_mediano{ width:120px; text-align:left; font-size:small; }

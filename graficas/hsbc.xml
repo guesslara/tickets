@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" x="0" y="0">
+  <polygon points="0,100 100,0 100,200" fill="red" />
+  <polygon points="100,0 300,0 200,100" fill="red" />
+  <polygon points="100,200 200,100 300,200" fill="red" />
+  <polygon points="300,0 300,200 400,100" fill="red" />
+  
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600" height="600"  viewBox="10 10 600 300" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <desc>Arco 1</desc>
+  <rect x="1" y="1" width="500" height="500" fill="none" stroke="blue" stroke-width="2" />
+
+  <path id="path1" d="M100,250 C 100,50 400,50 400,250" fill="none" stroke="blue" stroke-width="7.06"  />
+  <circle cx="100" cy="250" r="50" fill="blue"  />
+</svg>

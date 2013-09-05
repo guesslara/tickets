@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"    width="500" height="500" id="svg2" sodipodi:version="0.32" inkscape:version="0.45" version="1.0" sodipodi:docbase="/home/cburnett/wikipedia/images/math" sodipodi:docname="circle arc.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" sodipodi:modified="true">
+  
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+   <!-- circunferencia 
+    <path sodipodi:type="arc" style="opacity:1; fill:#ffffff; fill-opacity:1; fill-rule:nonzero; stroke:#000000; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none; stroke-dashoffset:0; stroke-opacity:1" id="path2160" sodipodi:cx="150" sodipodi:cy="150" sodipodi:rx="135" sodipodi:ry="135" d="M 285 150 A 135 135 0 1 1  15,150 A 135 135 0 1 1  285 150 z" transform="translate(25,0)" />
+    -->
+	<!-- arco  
+	<path sodipodi:type="arc" style=" opacity:1; fill:#6aff86; fill-opacity:1;fill-rule:nonzero; stroke:#667bea; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none; stroke-dashoffset:0; stroke-opacity:1" id="path3146" sodipodi:cx="150" sodipodi:cy="150" sodipodi:rx="135" sodipodi:ry="135" d="M 237.223676,253.416 A 135,135 0 0 1 63.223675,46.583998 L 150,150 z" sodipodi:start="2.268928" sodipodi:end="4.0142573" transform="translate(25,0)" /> 
+	-->
+	<!-- Pie chart sample -->
+<path d="M200,200 L200,20 A180,180 0 0,1 377,231 z"
+	style="fill:#ff0000;
+		fill-opacity: 1;
+		stroke:black;
+		stroke-width: 1"/>
+<path d="M200,200 L377,231 A180,180 0 0,1 138,369 z"
+	style="fill:#00ff00;
+		fill-opacity: 1;
+		stroke:black;
+		stroke-width: 1"/>
+<path d="M200,200 L138,369 A180,180 0 0,1 20,194 z"
+	style="fill:#0000ff;
+		fill-opacity: 1;
+		stroke:black;
+		stroke-width: 1"/>
+<path d="M200,200 L20,194 A180,180 0 0,1 75,71 z"
+	style="fill:#ff00ff;
+		fill-opacity: 1;
+		stroke:black;
+		stroke-width: 1"/>
+<path d="M200,200 L75,71 A180,180 0 0,1 200,20 z"
+	style="fill:#ffff00;
+		fill-opacity: 1;
+		stroke:black;
+		stroke-width: 1"/>
+
+	<!--
+	<path sodipodi:type="arc" style=" opacity:1; fill:#6aff86; fill-opacity:1;fill-rule:nonzero; stroke:#667bea; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none; stroke-dashoffset:0; stroke-opacity:1" id="path3146" sodipodi:cx="150" sodipodi:cy="150" sodipodi:rx="135" sodipodi:ry="135" d="M 63.223676,253.416 A 135,135 0 0 1 63.223675,46.583998 L 150,150 z" sodipodi:start="2.268928" sodipodi:end="4.0142573" transform="translate(25,0)" /> 	
+	 //-->
+  </g>
+
+</svg>

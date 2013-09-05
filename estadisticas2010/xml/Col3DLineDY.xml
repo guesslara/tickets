@@ -1,0 +1,76 @@
+<chart palette='1' caption='Sales' shownames='1' showvalues='0' numberPrefix='$' sYAxisValuesDecimals='2' connectNullData='0' PYAxisName='Revenue' SYAxisName='Quantity'  numDivLines='4' formatNumberScale='0' sNumberSuffix='%25'>
+<categories>
+	<category label='Enero' />
+	<category label='Febrero' />
+	<category label='Marzo' />
+	<category label='Abril' />
+	<category label='Mayo' />
+	<category label='Junio' />
+	<category label='Julio' />
+	<category label='Agosto' />
+	<category label='Septiembre' />
+	<category label='Octubre' />
+	<category label='Noviembre' />
+	<category label='Diciembre' />
+</categories>
+<dataset seriesName='Product A' color='AFD8F8' showValues='0'>
+	<set value='25601.34' />
+	<set value='20148.82' />
+	<set value='17372.76' />
+	<set value='35407.15' />
+	<set value='38105.68' />
+	<set value='25601.34' />
+	<set value='20148.82' />
+	<set value='17372.76' />
+	<set value='35407.15' />
+	<set value='38105.68' />
+	<set value='25601.34' />
+	<set value='20148.82' />
+</dataset>
+<!---->
+<dataset seriesName='Product B' color='F6BD0F' showValues='0' >
+	<set value='57401.85' /> 
+	<set value='41941.19' />
+	<set value='45263.37' />
+	<set value='117320.16' />
+	<set value='114845.27' dashed='1'/>
+	<set value='57401.85' /> 
+	<set value='41941.19' />
+	<set value='45263.37' />
+	<set value='117320.16' />
+	<set value='114845.27' dashed='1'/>
+	<set value='57401.85' /> 
+	<set value='41941.19' />
+</dataset>
+
+
+<dataset seriesName='Eficiencia' color='ff0000' showValues='0' parentYAxis='S' >
+	<set value='15' />
+	<set value='20' />
+	<set value='30' />
+	<set value='40' />
+	<set value='50' />
+	<set value='60' />
+	<set value='50' />
+	<set value='10' />
+	<set value='90' />
+	<set value='70' />
+	<set value='80' />
+	<set value='50' />
+</dataset>
+<dataset seriesName='Total Quantity' color='8BBA00' showValues='0' parentYAxis='S' >
+		<set value='0' />
+		<set value='0' />
+		<set value='0' />
+		<set value='0' />
+		<set value='66.67' />
+		<set value='96.18' />
+		<set value='95.15' />
+		<set value='96.19' />
+		<set value='95.79' />
+		<set value='96.39' />
+		<set value='96.3' />
+		<set value='96.97' />
+</dataset>
+</chart>
+
