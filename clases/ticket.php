@@ -48,7 +48,7 @@ class ticket{
 					$message.="Tema / Asunto: ".$row3["tema"]."<br><br>";
 					$message.="Descripci&oacute;n: ".$row3["descripcion"]."<br><br>";
 					$message.="Correo generado Autom&aacute;ticamente<br><br>";
-					$send_params['recipients'] = array("glara@iqelectronics.net","uvelez@iqelectronics.net","drjuarez@iqelectronics.com.mx","sistemas@iqelectronics.com.mx","hgmontoya@iqelectronics.com.mx"); // The recipients (can be multiple), separados por coma.
+					$send_params['recipients'] = array("sistemas@iqelectronics.com.mx"); // The recipients (can be multiple), separados por coma.
 					$send_params['headers']	   = array(
 									'Content-Type: text/html;',
 									'From: "'.$origen_nombre.'" <soporte@iqelectronics.com.mx>',	// Headers

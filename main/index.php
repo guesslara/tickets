@@ -27,9 +27,9 @@ $(document).ready(function(){
     <div id="login_02"><br /><img src="../img/kuser.png" id="img_login_01" /></div>
     <div id="login_03">
     	<p>Usuario:</p>
-        <p align="center"><label><input type="text" id="txt_usuario" style="text-align:center;" <!--onkeyup="tecla(0,event)"--> /></label></p>
+        <p align="center"><label><input type="text" id="txt_usuario" style="text-align:center;" /></label></p>
 	<p>Password:</p>
-	<p align="center"><label><input type="password" id="txt_nde" style="text-align:center;" <!--onkeyup="tecla(1,event)"--> /></label></p>
+	<p align="center"><label><input type="password" id="txt_nde" style="text-align:center;" /></label></p>
         <p id="p_login_mensaje" style=" display:none; color:#F00; font-size:12px;">datos incorrectos</p>
         <p><a href="#" class="link_02" onclick="login()">entrar</a></p>
     </div>

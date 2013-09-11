@@ -4,7 +4,7 @@ class usuario{
 		include("../conf/conexion.php");
 		$sql="SELECT servicio FROM cat_areas WHERE id=".$_SESSION["usuario_grupo"]."; ";
 		$resultado=0;
-		if ($res=mysql_db_query($db_actual,$sql,$link)){ 
+		if ($res=mysql_query($sql,$link)){ 
 			$ndr=mysql_num_rows($res);
 			if($ndr>0){
 				while($reg=mysql_fetch_array($res)){
@@ -21,8 +21,10 @@ class usuario{
 		/*
 		 *Las modificaciones se hacen para la inclusion de la validacion del nombre de usuario y contraseña en la aplicacion
 		*/
-		$sql="SELECT id,nombre,apellidos,usuario,grupo,nivel FROM cat_usuarios WHERE no_empleado='$nde' AND activo=1 LIMIT 1; ";
-		if ($res=mysql_db_query($db_actual,$sql,$link)){ 
+		//$sql="SELECT id,nombre,apellidos,usuario,grupo,nivel FROM cat_usuarios WHERE no_empleado='$nde' AND activo=1 LIMIT 1; ";
+		$sql="SELECT id,nombre,apellidos,usuario,grupo,nivel FROM cat_usuarios WHERE usuario='".$usuarioT."' AND nip='".md5($nde)."' AND activo=1 LIMIT 1; ";
+		//exit();
+		if ($res=mysql_query($sql,$link)){ 
 			$ndr=mysql_num_rows($res);
 			if($ndr>0){	
 				//echo " $ndr resultados ";
@@ -146,7 +148,7 @@ $(".tabx").click( function (){
 			exit;
 		}
 		
-		if (mysql_db_query($db_actual,$sql,$link)){ 
+		if (mysql_query($db_actual,$sql,$link)){ 
 			//return true;
 			echo "Se inserto el usuario:&nbsp;&nbsp;&nbsp; <span class='spa_no_ticket'>".mysql_insert_id($link)."<span>";
 			?><script language="javascript"> document.frm_02.reset(); </script><?php

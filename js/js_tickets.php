@@ -1,7 +1,3 @@
-<?php
-// Archivo PHP con codigo JS...
-
-?>
 <script type="text/javascript">
 // JavaScript Document
 function start(){
@@ -51,10 +47,10 @@ function frm_nvo_tic(){
 			//html_01+="<td>Area</td>	<td><label><input type='text'></label></td>";
 			html_01+="<td>Area de Servicio</td>	<td><label><select>";
 				html_01+="<option value=''>...</option>";
-				<?php
+<?
 				include("../conf/conexion.php");
 				$sql="SELECT * FROM cat_areas WHERE servicio=1 ORDER BY id; ";
-				if ($res=mysql_db_query($db_actual,$sql,$link)){ 
+				if ($res=mysql_query($sql,$link)){ 
 					$ndr=mysql_num_rows($res);
 					if($ndr>0){	
 						while($reg=mysql_fetch_array($res)){
@@ -76,7 +72,7 @@ function frm_nvo_tic(){
 				<?php
 				include("../conf/conexion.php");
 				$sql="SELECT id,nombre FROM cat_usuarios ORDER BY id; ";
-				if ($res=mysql_db_query($db_actual,$sql,$link)){ 
+				if ($res=mysql_query($sql,$link)){ 
 					$ndr=mysql_num_rows($res);
 					if($ndr>0){	
 						while($reg=mysql_fetch_array($res)){
@@ -161,7 +157,7 @@ function frm_nvo_usuario(){
 				<?php
 				include("../conf/conexion.php");
 				$sql="SELECT * FROM cat_areas ORDER BY id; ";  //<<<<---------------------------
-				if ($res=mysql_db_query($db_actual,$sql,$link)){ 
+				if ($res=mysql_query($sql,$link)){ 
 					$ndr=mysql_num_rows($res);
 					if($ndr>0){	
 						while($reg=mysql_fetch_array($res)){
